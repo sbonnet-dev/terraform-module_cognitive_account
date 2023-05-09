@@ -18,7 +18,7 @@ variable "kind" {
     condition = contains([
       "FormRecognizer",
       "OpenAI",
-    ], var.rg_type)
+    ], var.kind)
     error_message = "The kind is invalid."
   }
 }
