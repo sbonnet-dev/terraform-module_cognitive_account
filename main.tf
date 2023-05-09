@@ -14,8 +14,4 @@ resource "azurerm_cognitive_account" "cognitive_account" {
     environment = var.environment
     owner       = var.owner
   }
-
-  depends_on = [
-    module.resource_group
-  ]
 }
