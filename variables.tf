@@ -9,6 +9,11 @@ variable "sku_name" {
   default     = "S0"
 }
 
+variable "custom_subdomain_name" {
+  type        = string
+  description = "value of custom_subdomain_name"
+}
+
 variable "kind" {
   type        = string
   description = "Type of cognitive service"
