@@ -3,5 +3,5 @@ output "id" {
 }
 
 output "name" {
-  name = azurerm_cognitive_account.cognitive_account.name
+  name = azurerm_cognitive_account.cognitive_account.endpoint
 }
