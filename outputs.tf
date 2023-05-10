@@ -2,6 +2,6 @@ output "id" {
   value = azurerm_cognitive_account.cognitive_account.id
 }
 
-output "id" {
+output "name" {
   name = azurerm_cognitive_account.cognitive_account.name
 }
