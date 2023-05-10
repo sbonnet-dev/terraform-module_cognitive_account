@@ -1,5 +1,5 @@
 resource "azurerm_cognitive_account" "cognitive_account" {
-  name = var.name
+  name     = lower(format("ca-%s-%s-%s", var.project, var.environment, var.name))
 
   location            = var.location
   resource_group_name = var.rg_name
